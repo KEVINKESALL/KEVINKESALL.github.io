@@ -1,0 +1,16 @@
+{
+  "name": "tailwindpagina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/config.css -o ./src/css/estilos.css",
+    "dev": "npx tailwindcss -i ./src/css/config.css -o ./src/css/estilos.css --watch"
+  },
+  "dependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
